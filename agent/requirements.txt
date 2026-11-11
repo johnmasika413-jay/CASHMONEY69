@@ -68,7 +68,7 @@ sse-starlette>=1.6.0
 # optional: pip install "vibe-trading-ai[openbb]" — OpenBB Workspace custom-agent bridge (openbb-ai protocol models + SSE helpers)
 
 # MCP Server
-fastmcp>=3.4.10,<4.0.0
+fastmcp>=3.4.10,<5.0.0
 
 # Web Search
 ddgs>=6.0.0
