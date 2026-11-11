@@ -1,0 +1,70 @@
+# ==========================================
+# macOS System Files
+# ==========================================
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Trashes
+
+# ==========================================
+# VS Code Configuration & History
+# ==========================================
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+.history/
+
+# ==========================================
+# Environment Variables & API Keys
+# ==========================================
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.cert
+
+# ==========================================
+# Python & Virtual Environments
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+ENV/
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ==========================================
+# Node.js & Build Artifacts
+# ==========================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ==========================================
+# Installers, Binaries & Archives (>50MB)
+# ==========================================
+*.pkg
+*.dmg
+*.zip
+*.tar.gz
+*.7z
+*.iso
+
+# ==========================================
+# Local Databases & Logs
+# ==========================================
+*.log
+*.sqlite
+*.sqlite3
+*.db
