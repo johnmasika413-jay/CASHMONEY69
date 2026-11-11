@@ -10,7 +10,6 @@ from __future__ import annotations
 from typing import Any, Dict, Optional
 
 from ..bus import MessageBus
-from ..config import Instrument
 from ..detection import detect_cisd, detect_fvg, detect_ifvg, detect_smr, detect_smt
 from ..engine import engine
 from ..models import Candle, Instrument as InstEnum, PatternType, Timeframe

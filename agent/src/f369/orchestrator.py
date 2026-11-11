@@ -10,9 +10,9 @@ import asyncio
 import signal
 from typing import Any, Dict, List, Optional
 
-from ..engine import engine
-from ..models import SharedContext
-from ..sync import synchronizer
+from .engine import engine
+from .models import SharedContext
+from .sync import synchronizer
 from .agents.alerts import AlertsAgent
 from .agents.backtest import BacktestAgent
 from .agents.base import BaseAgent
